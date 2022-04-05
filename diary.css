@@ -17,6 +17,7 @@ table { margin-left: 20px;
         margin-right: 20px;
         border: thin solid black;
         caption-side: bottom;
+        border-collapse: collapse;
 }
 td, th { border: thin dotted gray;
          padding: 5px;
@@ -24,4 +25,19 @@ td, th { border: thin dotted gray;
 caption { font-style: italic;
           padding-top: 8px;
 
+}
+th { background-color: #cc6600;
+}
+.cellcolor { background-color: #fcba7a;
+}
+.centre { text-align: center;
+
+}
+.right { text-align: right;
+}
+table table th { background-color: white;
+}
+li { list-style-image: url(images/backpack.gif);
+     padding-top: 5px;
+     margin-left: 20px;
 }
